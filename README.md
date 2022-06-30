@@ -26,7 +26,7 @@ export REDIRECT_URI=’http://127.0.0.1:5000/oauth/callback’
 You can obtain your own OAuth 2.0 Client ID and Secret inside of your App’s settings in the developer portal. Use your Client ID and Secret instead of the `xxxxxxxxxxxxxx`.
 
 ### Run the file
-To run the file locally, run the following line in your terminal:
+To run the file, run the following line in your terminal:
 
 ```bash
 python app.py
