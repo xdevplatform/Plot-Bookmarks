@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block containercontent %}
+<p class="lead">This app lets you plot your Bookmarked Tweets by date.</p>
+<div class="hero-unit">
+	<p>To get started, we'll need you to authorize our demo App (Hello world twitter bot) to access your bookmarks on Twitter using OAuth 2.0. Learn more information about <a href="https://developer.twitter.com/en/docs/authentication/oauth-2-0">OAuth 2.0.</a></p>
+	<p>Here's how it works:</p>
+	<ol>
+		<li>We will redirect you to Twitter.com for you to authorize our app.</li>
+		<li>While at Twitter.com, you will authorize bookmarks-to-Pinterest to access your bookmarks. Upon authorization, we will get your recent 100 bookmarks.</li>
+		<li>Next we will display your Bookmarked Tweets by date.</li>
+	</ol>
+</div>
+<p>Ready to give this a shot?</p>
+<a href="/start" class="btn btn-small btn-success">Let's Begin</a>
+{% endblock %}
