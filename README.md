@@ -1,7 +1,5 @@
 # Plot Bookmarks
-I don’t Bookmark Tweets very often, and I was wondering how constantly I use the Bookmark functionality on Twitter. To figure out exactly how often I bookmark Tweets,
-
-I built a [demo application](https://plot-bookmarks.onrender.com/) in Python using [Flask](https://flask.palletsprojects.com/en/2.1.x/). This sample code will build an application that will authorize your account using the [OAuth 2.0 Authorization Code Flow with PKCE](https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code) and plot up to your last 100 Bookmarked Tweets.
+I don’t Bookmark Tweets very often, and I was wondering how constantly I use the Bookmark functionality on Twitter. To figure out exactly how often I bookmark Tweets,I built a [demo application](https://plot-bookmarks.onrender.com/) in Python using [Flask](https://flask.palletsprojects.com/en/2.1.x/). This sample code will build an application that will authorize your account using the [OAuth 2.0 Authorization Code Flow with PKCE](https://developer.twitter.com/en/docs/authentication/oauth-2-0/authorization-code) and plot up to your last 100 Bookmarked Tweets.
 
 ## Getting set up with the Twitter API
 
